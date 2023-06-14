@@ -1,12 +1,12 @@
 function validateHello(greetings) {
     //res =  //regex here/.test(greetings) 
     greetings = greetings.toLowerCase();
-    /*if(greetings == "hello" || greetings == "ciao" || greetings == "salut" || greetings == "hallo" || greetings == "hola" || greetings == "ahoj" || greetings == "czesc"){
+    if(greetings.includes("hello") || greetings.includes("ciao") || greetings.includes("salut") || greetings.includes("hallo") || greetings.includes("hola") || greetings.includes("ahoj") || greetings.includes("czesc")){
       return true;
     } else {
       return false
-    }*/
-    return greetings
+    }
+    //return greetings
 }
 console.log(validateHello('ahoj')); // true
 console.log(validateHello('meh')); // false
